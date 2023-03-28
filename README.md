@@ -40,7 +40,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - himanshushahi0478@gmail.com
+Contact Me - himanshushahi0478@gmail.com
 
 Use this app : https://himanshushahi.github.io/Todo-List-App/
 
