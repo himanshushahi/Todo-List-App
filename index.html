@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="h1">ToDo List</h1>
+        <div class="Right-nav">
+            <input type="text" id="Search-field" placeholder="i.e.:World">
+            <input type="submit" id="search" class="btn2 search" value="Search">
+        </div>
+    </nav>
+
+    <div class="body">
+
+        <div id="search-result" class="transform-300">
+        </div>
+
+        <div class="container">
+            <input type="text" placeholder="Enter the notes here" id="todo-text">
+            <input type="submit" id="addTodoButton" class="btn2" value="Add">
+            <!-- <div style="display: flex; gap: 5px; align-items: center;" class="alarm-div">
+                <label for="time" style="font-size: 15px; font-weight:200; color: white;">Set Alarm</label>
+                <input type="time" id="time" class="input">
+                <input type="submit" value="clear" id="clearAlarm" class="btn2">
+            </div>
+             -->
+        </div>
+        <div class="select-field">
+            <button id="selectAll" class="btn2">SelectAll</button>
+            <button id="deselectAll" class="btn2 display-none">DeselectAll</button>
+            <button id="delete" class="btn2 del">Delete</button>
+        </div>
+        <div class="todo" id="todo-field">
+            <!-- <div style="height: 100%; display: flex; justify-content: center; align-items: center;" id="info">Todos Appear Here</div>
+        </div> -->
+    </div>
+
+    <div class="modal-background hidden" id="modal">
+        <div class="modal">
+            <div>Are You Sure?</div>
+            <div style=" width:100%;display: flex; justify-content: space-evenly; "><button class="btn2"
+                    id="yesButton">Yes</button> <button class="btn2" id="noButton">No</button></div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Copyright by Himanshu Kumar Shahi Front-End Developer
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
