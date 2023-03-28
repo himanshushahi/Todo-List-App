@@ -19,7 +19,7 @@ This is a simple todo list app built using HTML, CSS and JavaScript where users 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/himanshushahi/Todo-List-App.git
    ```
 2. Open the index.html file in your web browser.
 
