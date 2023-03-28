@@ -42,6 +42,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - email@example.com
 
-Project Link: [https://github.com/username/repo](https://github.com/username/repo)
+Use this app : https://himanshushahi.github.io/Todo-List-App/
 
 Is there anything else I can help you with?
