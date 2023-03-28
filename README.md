@@ -8,6 +8,7 @@ This is a simple todo list app built using HTML, CSS and JavaScript where users 
 - Edit an existing todo
 - Delete a particular todo
 - Delete all todos at once
+- Search a particular todo
 
 ## Getting Started
 
